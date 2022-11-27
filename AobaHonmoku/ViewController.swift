@@ -138,7 +138,6 @@ class ViewController: UIViewController {
         let nextView = self.storyboard?.instantiateViewController(withIdentifier: "adPage") as! adViewController
         let delegate = UIApplication.shared.delegate as! AppDelegate
         nextView.adInfo = csvArrayThu
-        delegate.adInfo = csvArrayThu
         self.navigationController?.pushViewController(nextView, animated: true)
     }
     
@@ -147,7 +146,6 @@ class ViewController: UIViewController {
         let nextView = self.storyboard?.instantiateViewController(withIdentifier: "adPage") as! adViewController
         let delegate = UIApplication.shared.delegate as! AppDelegate
         nextView.adInfo = csvArrayFri
-        delegate.adInfo = csvArrayFri
         self.navigationController?.pushViewController(nextView, animated: true)
     }
     
@@ -157,7 +155,6 @@ class ViewController: UIViewController {
         let nextView = self.storyboard?.instantiateViewController(withIdentifier: "adPage") as! adViewController
         let delegate = UIApplication.shared.delegate as! AppDelegate
         nextView.adInfo = csvArraySat
-        delegate.adInfo = csvArraySat
         self.navigationController?.pushViewController(nextView, animated: true)
     }
     //ボタン4が押されたときの処理
@@ -165,7 +162,6 @@ class ViewController: UIViewController {
         let nextView = self.storyboard?.instantiateViewController(withIdentifier: "adPage") as! adViewController
         let delegate = UIApplication.shared.delegate as! AppDelegate
         nextView.adInfo = csvArraySun
-        delegate.adInfo = csvArraySun
         self.navigationController?.pushViewController(nextView, animated: true)
     }
     //ボタン5が押されたときの処理
@@ -173,7 +169,6 @@ class ViewController: UIViewController {
         let nextView = self.storyboard?.instantiateViewController(withIdentifier: "adPage") as! adViewController
         let delegate = UIApplication.shared.delegate as! AppDelegate
         nextView.adInfo = csvArrayMon
-        delegate.adInfo = csvArrayMon
         self.navigationController?.pushViewController(nextView, animated: true)
     }
     
@@ -182,7 +177,6 @@ class ViewController: UIViewController {
         let nextView = self.storyboard?.instantiateViewController(withIdentifier: "adPage") as! adViewController
         let delegate = UIApplication.shared.delegate as! AppDelegate
         nextView.adInfo = csvArrayTue
-        delegate.adInfo = csvArrayTue
         self.navigationController?.pushViewController(nextView, animated: true)
     }
     
@@ -192,7 +186,6 @@ class ViewController: UIViewController {
         let nextView = self.storyboard?.instantiateViewController(withIdentifier: "adPage") as! adViewController
         let delegate = UIApplication.shared.delegate as! AppDelegate
         nextView.adInfo = csvArrayWed
-        delegate.adInfo = csvArrayWed
         self.navigationController?.pushViewController(nextView, animated: true)
     }
     
